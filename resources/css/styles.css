@@ -5,9 +5,10 @@ body {
 }
 
 /*text styles*/
-header {
+header,
+h3.background {
   color: #fff;
-  margin: o;
+  margin: 0;
 }
 
 h1,
@@ -26,10 +27,6 @@ h2 {
 
 h3 {
   font-size: 23px;
-}
-
-h3.background {
-  color: #fff;
 }
 
 p {
@@ -55,17 +52,20 @@ li a {
   padding: 3px 0;
 }
 
+/*Footer styles*/
 footer {
   background-color: dimgray;
   color: #fff;
-  font-size: 11px;
   text-align: left;
+  padding: 0 10px;
 }
 
 footer p, footer nav, footer nav ul li {
   display: inline-block;
+  font-size: 11px;
 }
 
 footer nav ul li {
-  padding: 3px 5px;
+  padding: 0 5px;
+  font-size: 11px;
 }
